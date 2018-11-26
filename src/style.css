@@ -115,12 +115,12 @@ $modal-padding: 15px;
 
 .mt-net-form-modal__close:before {
   content: " ";
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGRlZnM+PHN0eWxlPi5we3N0cm9rZTojMDAwO3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS13aWR0aDoycHg7ZmlsbDpub25lO308L3N0eWxlPjwvZGVmcz48Zz48Y2lyY2xlIGNsYXNzPSJwIiBjeD0iMzIiIGN5PSIzMiIgcj0iMzEiLz48bGluZSBjbGFzcz0icCIgeDE9IjIzIiB5MT0iMjMiIHgyPSI0MSIgeTI9IjQxIi8+PGxpbmUgY2xhc3M9InAiIHgxPSIyMyIgeTE9IjQxIiB4Mj0iNDEiIHkyPSIyMyIvPjwvZz48L3N2Zz4=");
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48ZGVmcz48c3R5bGU+LnB7c3Ryb2tlOiMwMDA7c3Ryb2tlLW1pdGVybGltaXQ6MTA7c3Ryb2tlLXdpZHRoOjJweDtmaWxsOm5vbmU7fTwvc3R5bGU+PC9kZWZzPjxnPjxjaXJjbGUgY2xhc3M9InAiIGN4PSIzMS41IiBjeT0iMzEuNSIgcj0iMzAuNSIvPjxsaW5lIGNsYXNzPSJwIiB4MT0iMjIuNjUiIHkxPSIyMi42NSIgeDI9IjQwLjM1IiB5Mj0iNDAuMzUiLz48bGluZSBjbGFzcz0icCIgeDE9IjIyLjY1IiB5MT0iNDAuMzUiIHgyPSI0MC4zNSIgeTI9IjIyLjY1Ii8+PC9nPjwvc3ZnPgo=") no-repeat;
+  background-size: contain;
   display: inline-block;
-  background-size:contain;
   vertical-align:middle;
-  width: calc(1.5rem * 0.9);
-  height: calc(1.5rem * 0.9);
+  width: calc(1.5rem - 1px);
+  height: calc(1.5rem - 1px);
 }
 
 .mt-net-form-modal__header {
