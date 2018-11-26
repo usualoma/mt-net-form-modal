@@ -146,6 +146,7 @@ $modal-padding: 15px;
 }
 
 .mt-net-form-modal__iframe {
+  background-color: #fff;
   position: relative;
   z-index: calc($base-z-index + 5);
   height: 100%;
