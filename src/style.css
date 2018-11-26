@@ -20,7 +20,7 @@ $modal-padding: 15px;
   display: flex;
   flex-direction: column;
 
-  transition-property: width, height, border-radius, bottom, right;
+  transition-property: width, height, border-radius, top, bottom, right, left;
   transition-timing-function: $transition-timing-function;
   transition-duration: $transition-duration;
 }
