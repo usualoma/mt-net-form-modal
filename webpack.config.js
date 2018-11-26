@@ -12,9 +12,7 @@ module.exports = {
           {
             loader: "style-loader",
             options: {
-              insertAt: {
-                before: "#mt-net-form-modal-script"
-              }
+              insertAt: "top",
             }
           },
           {
