@@ -9,7 +9,14 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          "style-loader",
+          {
+            loader: "style-loader",
+            options: {
+              insertAt: {
+                before: "#mt-net-form-modal-script"
+              }
+            }
+          },
           {
             loader: "css-loader",
             options: {
