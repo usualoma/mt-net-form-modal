@@ -19,7 +19,7 @@ module.exports = {
             loader: "css-loader",
             options: {
               url: false,
-              sourceMap: true,
+              sourceMap: false,
               minimize: true,
               importLoaders: 1
             },
@@ -27,7 +27,7 @@ module.exports = {
           {
             loader: "postcss-loader",
             options: {
-              sourceMap: true,
+              sourceMap: false,
               plugins: [
                 require("autoprefixer")({grid: true}),
                 require("postcss-nested"),
